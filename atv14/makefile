@@ -1,3 +1,3 @@
 all:
-	gcc ./estruturas/listaDuplamenteEncadeada.c main.c -o main.exe
+	gcc ./estruturas/listaDuplamenteEncadeada.c ./estruturas/abb.c main.c -o main.exe
 	

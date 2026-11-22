@@ -13,7 +13,7 @@ typedef struct {
     No *tail;
 } Lista;
 
-#define NAO_ENCONTRADO -99999.99;
+#define NAO_ENCONTRADO -99999.99f 
 
 Lista* criaLista(void);
 No* criarNo(int key, float valor);
